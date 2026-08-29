@@ -23,11 +23,11 @@ def configure_logging(path: Path):
     logging.basicConfig(level=logging.INFO,format="%(asctime)s %(levelname)s %(message)s",handlers=[logging.FileHandler(path,encoding="utf-8"),logging.StreamHandler()])
 
 def split_records(page_text: str) -> list[str]:
-    # Comentario V1 - Divide texto de página em registros individuais separados por padrão 'Protocolo'
-    # Comentario V1 - Usa lookahead regex para dividir antes de cada "Protocolo" sem remover ele
-    parts=re.split(r"(?=Protocolo\s+(?:AT-\d{3}|PROTOCOLO\?))",clean_text(page_text),flags=re.I)
-    # Comentario V1 - Retorna apenas partes que contêm "Protocolo" após limpeza de espaços
-    return [p.strip() for p in parts if re.search(r"Protocolo\s+",p,re.I)]
+    # Comentario V1 - Divide texto de página em registros individuais separando por rótulos de protocolo corrompidos por OCR
+    clean=clean_text(page_text)
+    pattern=r"(?=(?:Protocol(?:b)?|Protocolo)\s*(?:AT[-\s]?\d{2,3}|AT[O0S]?\d{2,3}|AT\d{2,3}|PROTOCOLO\?))"
+    parts=re.split(pattern,clean,flags=re.I)
+    return [p.strip() for p in parts if re.search(r"(?:Protocol(?:b)?|Protocolo)\s+",p,re.I)]
 
 def process_all(cfg: dict) -> pd.DataFrame:
     # Comentario V1 - Função principal que orquestra todo o pipeline: processa PDFs, executa OCR, valida registros, armazena no BD e gera análises

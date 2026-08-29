@@ -9,23 +9,59 @@ PROTO_RE=re.compile(r"^AT-\d{3}$")
 CEP_RE=re.compile(r"^\d{5}-?\d{3}$")
 # Comentario V1 - Padrões de extração de campos estruturados com regex
 FIELD_PATTERNS={
- "protocolo":r"Protocolo\s+(AT-\d{3}|PROTOCOLO\?)", "data":r"Data\s+(\d{2}/\d{2}/\d{4}|\d{4}-\d{2}-\d{2})",
- "solicitante":r"Solicitante\s+(.+?)\s+E-mail", "email":r"E-mail\s+(\S+)", "categoria":r"Categoria\s+(.+?)\s+Status",
- "status":r"Status\s+(Concluido|Pendente|Em atendimento)", "cep":r"CEP\s*/?\s*cidade\s+(\S+)",
- "tempo_minutos":r"Tempo\s+(-?\d+)?\s*min", "descricao":r"Problema\s+(.+?)\s+Solucao",
- "solucao":r"Solucao\s+(.+?)\s+Observacoes", "observacoes":r"Observacoes\s+(.+)$"}
+ "protocolo":r"(?:Protoc(?:olo|ol|ob|olb)|Protocol(?:b)?)\s*(AT[-\s]?\d{3}|AT[O0S]?\d{2,3}|AT\d{3}|PROTOCOLO\?)",
+ "data":r"Data\s*(\d{2}/\d{2}/\d{4}|\d{4}-\d{2}-\d{2}|\d{2}/\d{2}/\d{2,4})",
+ "solicitante":r"(?:Solicitante|Solcitante|Soklcitante|S[Oo0]licitante)\s*(.+?)\s*(?:E-mail|Email)",
+ "email":r"(?:E-mail|Email)\s*([A-Za-z0-9._%+\-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,})",
+ "categoria":r"(?:Categoria|C\s*ategoria|C\s*ategoria)\s*(.+?)\s*(?:Status|Statu[sS])",
+ "status":r"Status\s*(Concluido|Pendente|Em atendimento|Concluído|Concutdo|Concuto)",
+ "cep":r"CEP\s*/?\s*cidade\s*(\S+)",
+ "tempo_minutos":r"Tempo\s*(\d+)?\s*(?:min|mn|m[ha])",
+ "descricao":r"(?:Problema|Problem a|Problm a|Problema\s*[:])\s*(.+?)\s*(?:Solucao|Solucao\s*[:]|Solcao)",
+ "solucao":r"(?:Solucao|Solcao)\s*(.+?)\s*(?:Observacoes|O bservacoes|Observações)",
+ "observacoes":r"(?:Observacoes|O bservacoes|Observações)\s*(.+)$"}
+
+OCR_DIGIT_MAP={ord('A'):'4',ord('B'):'8',ord('D'):'0',ord('G'):'6',ord('I'):'1',ord('L'):'1',ord('O'):'0',ord('Q'):'0',ord('S'):'5',ord('T'):'7',ord('Z'):'2'}
+
 
 def clean_text(text: str) -> str:
     # Comentario V1 - Remove caracteres nulos e normaliza espaços em branco do texto
     text=text.replace("\x00", " ")
     return re.sub(r"\s+", " ", text).strip()
 
+
+def normalize_protocol(value: str) -> str:
+    # Comentario V1 - Corrige variações comuns de OCR no protocolo, como ATO51, AT 062, ATOS5A4 e similares sem corromper protocolos válidos
+    raw=(value or "").strip().upper()
+    if not raw: return ""
+    compact=re.sub(r"[^A-Z0-9]", "", raw)
+    for token in ("PROTOCOLO","PROTOCOL","PROTOCOB","PROTOCOLB"):
+        compact=compact.replace(token, "AT")
+    compact=compact.replace("ATO","AT").replace("ATS","AT")
+    compact=compact.replace("ATS","AT")
+    compact=compact.replace("AT", "AT")
+    #Comentário V1 - Mantém o prefixo AT e limpa apenas o ruído OCR da parte numérica
+    match=re.search(r"AT(?:[O0S]?|[A-Z]?)(\d+)", compact)
+    if match:
+        digits=re.sub(r"\D", "", match.group(1))
+        if digits:
+            return f"AT-{int(digits):03d}"
+    if re.fullmatch(r"AT\d{3}", compact):
+        return f"{compact[:2]}-{compact[2:]}"
+    return raw.upper()
+
+
 def extract_fields(text: str) -> dict:
     # Comentario V1 - Extrai campos estruturados de texto de atendimento usando padrões regex pré-definidos
-    clean=clean_text(text); result={}
+    clean=clean_text(text)
+    # Comentario V1 - Normaliza ruído de OCR: remove espaços embutidos em rótulos e palavras sem quebra semântica
+    clean=re.sub(r"(?<=[A-Za-z])\s+(?=[A-Za-z])", "", clean)
+    result={}
     for key,pattern in FIELD_PATTERNS.items():
         match=re.search(pattern,clean,re.I|re.S)
         result[key]=match.group(1).strip() if match else ""
+    if result.get("protocolo"):
+        result["protocolo"] = normalize_protocol(result["protocolo"])
     return result
 
 def parse_date(value: str):
@@ -51,8 +87,8 @@ def normalize_category(value: str, categories: dict) -> str | None:
 def validate_record(record: dict, categories: dict) -> tuple[str,list[str],dict]:
     # Comentario V1 - Valida registro e retorna classificação (válido/incompleto/inválido) com lista de problemas encontrados
     r=dict(record); reasons=[]
-    # Comentario V1 - Extrai protocolo, converte para maiúscula e valida formato AT-###
-    protocol=r.get("protocolo","").strip().upper(); r["protocolo"]=protocol
+    # Comentario V1 - Extrai protocolo, normaliza variações OCR e valida formato AT-###
+    protocol=normalize_protocol(r.get("protocolo","")); r["protocolo"]=protocol
     if not PROTO_RE.fullmatch(protocol): reasons.append("protocolo_invalido")
     # Comentario V1 - Tenta fazer parse de data em múltiplos formatos
     r["data_obj"]=parse_date(r.get("data", ""))
