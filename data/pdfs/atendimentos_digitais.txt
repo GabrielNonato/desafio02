@@ -1,0 +1,1164 @@
+FIC_DEV - Programador de Sistemas com IA | Dados ficticios
+Atendimentos digitais | pagina 1
+ Atendimentos digitais
+ Documento com texto selecionavel - 50 registros ficticios
+Protocolo
+AT-001
+Data
+06/07/2026
+Solicitante
+Henrique Oliveira Luz
+E-mail
+henrique.oliveira@aluno.exemplo.br
+Categoria
+ambiente virtual
+Status
+Pendente
+CEP / cidade
+78550-000 - Sinop/MT
+Tempo
+19 min
+Problema
+Ambiente virtual nao ativa no terminal.
+Solucao
+Atendimento ainda nao finalizado.
+Observacoes
+Registro de treinamento 001. Dados totalmente ficticios.
+Protocolo
+AT-002
+Data
+11/07/2026
+Solicitante
+Otavia Cardoso Leal
+E-mail
+otavia.cardoso@aluno.exemplo.br
+Categoria
+rede
+Status
+Em atendimento
+CEP / cidade
+78455-000 - Lucas do Rio Verde/MT
+Tempo
+26 min
+Problema
+Download das dependencias fica interrompido.
+Solucao
+Atendimento ainda nao finalizado.
+Observacoes
+Registro de treinamento 002. Dados totalmente ficticios.
+Protocolo
+AT-003
+Data
+2026-07-16
+Solicitante
+Vinicius Mendes Sales
+E-mail
+vinicius.mendes@aluno.exemplo.br
+Categoria
+pip
+Status
+Concluido
+CEP / cidade
+78205-160 - Caceres/MT
+Tempo
+33 min
+Problema
+pip nao e reconhecido no terminal.
+Solucao
+O ambiente foi ativado e as dependencias foram instaladas pelo requirements.txt.
+Observacoes
+Registro de treinamento 003. Dados totalmente ficticios.
+Protocolo
+AT-004
+Data
+21/07/2026
+Solicitante
+Daniel Souza Lima
+E-mail
+daniel.souza@aluno.exemplo.br
+Categoria
+atividade
+Status
+Pendente
+CEP / cidade
+78110-000 - Varzea Grande/MT
+Tempo
+40 min
+Problema
+CSV abre com colunas desorganizadas.
+Solucao
+Atendimento ainda nao finalizado.
+Observacoes
+Registro de treinamento 004. Dados totalmente ficticios.
+
+FIC_DEV - Programador de Sistemas com IA | Dados ficticios
+Atendimentos digitais | pagina 2
+ Atendimentos digitais
+ Documento com texto selecionavel - 50 registros ficticios
+Protocolo
+AT-005
+Data
+26/07/2026
+Solicitante
+Karina Almeida Reis
+E-mail
+karina.almeida@aluno.exemplo.br
+Categoria
+python
+Status
+Em atendimento
+CEP / cidade
+78700-000 - Rondonopolis/MT
+Tempo
+47 min
+Problema
+Conflito de versoes ao instalar uma biblioteca.
+Solucao
+Atendimento ainda nao finalizado.
+Observacoes
+Registro de treinamento 005. Dados totalmente ficticios.
+Protocolo
+AT-006
+Data
+2026-07-31
+Solicitante
+Rafael Batista Neves
+E-mail
+rafael.batista@aluno.exemplo.br
+Categoria
+entrega
+Status
+Concluido
+CEP / cidade
+78005-000 - Cuiaba/MT
+Tempo
+54 min
+Problema
+Arquivo JSON apresenta erro de formato.
+Solucao
+O formato do arquivo e o caminho de salvamento foram corrigidos.
+Observacoes
+Registro de treinamento 006. Dados totalmente ficticios.
+Protocolo
+AT-007
+Data
+05/08/2026
+Solicitante
+Zeca Moreira Cunha
+E-mail
+zeca.moreira@aluno.exemplo.br
+Categoria
+instalar programa
+Status
+Pendente
+CEP / cidade
+78300-000 - Tangara da Serra/MT
+Tempo
+61 min
+Problema
+Usuario nao possui permissao para instalar o programa.
+Solucao
+Atendimento ainda nao finalizado.
+Observacoes
+Registro de treinamento 007. Dados totalmente ficticios.
+Protocolo
+AT-008
+Data
+10/08/2026
+Solicitante
+Gabriela Pereira Melo
+E-mail
+gabriela.pereira@aluno.exemplo.br
+Categoria
+vscode
+Status
+Em atendimento
+CEP / cidade
+78200-000 - Caceres/MT
+Tempo
+68 min
+Problema
+Depurador para antes de iniciar o programa.
+Solucao
+Atendimento ainda nao finalizado.
+Observacoes
+Registro de treinamento 008. Dados totalmente ficticios.
+
+FIC_DEV - Programador de Sistemas com IA | Dados ficticios
+Atendimentos digitais | pagina 3
+ Atendimentos digitais
+ Documento com texto selecionavel - 50 registros ficticios
+Protocolo
+AT-009
+Data
+2026-08-15
+Solicitante
+Nicolas Teixeira Paz
+E-mail
+nicolas.teixeira@aluno.exemplo.br
+Categoria
+ACESSO E SENHA
+Status
+Concluido
+CEP / cidade
+78550-000 - Sinop/MT
+Tempo
+75 min
+Problema
+Nao consegue recuperar a senha do ambiente virtual.
+Solucao
+Foi realizada redefinicao de senha e orientacao sobre acesso seguro.
+Observacoes
+Registro de treinamento 009. Dados totalmente ficticios.
+Protocolo
+AT-010
+Data
+20/08/2026
+Solicitante
+Ursula Vieira Prado
+E-mail
+ursula.vieira@aluno.exemplo.br
+Categoria
+editor
+Status
+Pendente
+CEP / cidade
+78455-000 - Lucas do Rio Verde/MT
+Tempo
+82 min
+Problema
+Terminal integrado nao executa o script.
+Solucao
+Atendimento ainda nao finalizado.
+Observacoes
+Registro de treinamento 010. Dados totalmente ficticios.
+Protocolo
+AT-011
+Data
+04/07/2026
+Solicitante
+Camila Rodrigues Silva
+E-mail
+camila.rodrigues@aluno.exemplo.br
+Categoria
+senha
+Status
+Em atendimento
+CEP / cidade
+78205-160 - Caceres/MT
+Tempo
+89 min
+Problema
+Conta bloqueada depois de varias tentativas de acesso.
+Solucao
+Atendimento ainda nao finalizado.
+Observacoes
+Registro de treinamento 011. Dados totalmente ficticios.
+Protocolo
+AT-012
+Data
+2026-07-09
+Solicitante
+Joao Pedro Barros
+E-mail
+joao.pedro@aluno.exemplo.br
+Categoria
+venv
+Status
+Concluido
+CEP / cidade
+78110-000 - Varzea Grande/MT
+Tempo
+17 min
+Problema
+venv nao aparece no VSCode.
+Solucao
+O interpretador da pasta .venv foi selecionado no VSCode.
+Observacoes
+Registro de treinamento 012. Dados totalmente ficticios.
+
+FIC_DEV - Programador de Sistemas com IA | Dados ficticios
+Atendimentos digitais | pagina 4
+ Atendimentos digitais
+ Documento com texto selecionavel - 50 registros ficticios
+Protocolo
+AT-013
+Data
+14/07/2026
+Solicitante
+Quezia Santos Freire
+E-mail
+quezia.santos@aluno.exemplo.br
+Categoria
+conexao
+Status
+Pendente
+CEP / cidade
+78700-000 - Rondonopolis/MT
+Tempo
+24 min
+Problema
+Ambiente virtual de aprendizagem nao abre.
+Solucao
+Atendimento ainda nao finalizado.
+Observacoes
+Registro de treinamento 013. Dados totalmente ficticios.
+Protocolo
+AT-014
+Data
+19/07/2026
+Solicitante
+Yasmin Carvalho Brito
+E-mail
+yasmin.carvalho@aluno.exemplo.br
+Categoria
+pacotes python
+Status
+Em atendimento
+CEP / cidade
+78005-000 - Cuiaba/MT
+Tempo
+31 min
+Problema
+Conflito de versoes ao instalar uma biblioteca.
+Solucao
+Atendimento ainda nao finalizado.
+Observacoes
+Registro de treinamento 014. Dados totalmente ficticios.
+Protocolo
+AT-015
+Data
+2026-07-24
+Solicitante
+Felipe Nunes Dias
+E-mail
+felipe.nunes@aluno.exemplo.br
+Categoria
+acesso remoto
+Status
+Concluido
+CEP / cidade
+78300-000 - Tangara da Serra/MT
+Tempo
+38 min
+Problema
+Conexao cai durante o envio da atividade.
+Solucao
+Foi orientada nova tentativa e disponibilizado procedimento alternativo.
+Observacoes
+Registro de treinamento 015. Dados totalmente ficticios.
+Protocolo
+AT-016
+Data
+29/07/2026
+Solicitante
+Mariana Ribeiro Cruz
+E-mail
+mariana.ribeiro@aluno.exemplo.br
+Categoria
+PYTHON
+Status
+Pendente
+CEP / cidade
+78200-000 - Caceres/MT
+Tempo
+45 min
+Problema
+Erro ModuleNotFoundError ao executar a atividade.
+Solucao
+Atendimento ainda nao finalizado.
+Observacoes
+Registro de treinamento 016. Dados totalmente ficticios.
+
+FIC_DEV - Programador de Sistemas com IA | Dados ficticios
+Atendimentos digitais | pagina 5
+ Atendimentos digitais
+ Documento com texto selecionavel - 50 registros ficticios
+Protocolo
+AT-017
+Data
+03/08/2026
+Solicitante
+Thiago Araujo Campos
+E-mail
+thiago.araujo@aluno.exemplo.br
+Categoria
+arquivo
+Status
+Em atendimento
+CEP / cidade
+78550-000 - Sinop/MT
+Tempo
+52 min
+Problema
+Atividade foi salva em diretorio diferente do esperado.
+Solucao
+Atendimento ainda nao finalizado.
+Observacoes
+Registro de treinamento 017. Dados totalmente ficticios.
+Protocolo
+AT-018
+Data
+2026-08-08
+Solicitante
+Bruno Henrique Alves
+E-mail
+bruno.henrique@aluno.exemplo.br
+Categoria
+software
+Status
+Concluido
+CEP / cidade
+78455-000 - Lucas do Rio Verde/MT
+Tempo
+59 min
+Problema
+Instalador encerra antes de concluir.
+Solucao
+Foi utilizada a versao compativel e a instalacao foi repetida com sucesso.
+Observacoes
+Registro de treinamento 018. Dados totalmente ficticios.
+Protocolo
+AT-019
+Data
+13/08/2026
+Solicitante
+Isabela Gomes Pinto
+E-mail
+isabela.gomes@aluno.exemplo.br
+Categoria
+extensao vscode
+Status
+Pendente
+CEP / cidade
+78205-160 - Caceres/MT
+Tempo
+66 min
+Problema
+Terminal integrado nao executa o script.
+Solucao
+Atendimento ainda nao finalizado.
+Observacoes
+Registro de treinamento 019. Dados totalmente ficticios.
+Protocolo
+AT-020
+Data
+18/08/2026
+Solicitante
+Paulo Victor Ramos
+E-mail
+paulo.victor@aluno.exemplo.br
+Categoria
+instalacao
+Status
+Em atendimento
+CEP / cidade
+78110-000 - Varzea Grande/MT
+Tempo
+73 min
+Problema
+Versao instalada nao e compativel com o sistema operacional.
+Solucao
+Atendimento ainda nao finalizado.
+Observacoes
+Registro de treinamento 020. Dados totalmente ficticios.
+
+FIC_DEV - Programador de Sistemas com IA | Dados ficticios
+Atendimentos digitais | pagina 6
+ Atendimentos digitais
+ Documento com texto selecionavel - 50 registros ficticios
+Protocolo
+AT-021
+Data
+2026-07-02
+Solicitante
+Wesley Duarte Farias
+E-mail
+wesley.duarte@aluno.exemplo.br
+Categoria
+VS Code
+Status
+Concluido
+CEP / cidade
+78700-000 - Rondonopolis/MT
+Tempo
+80 min
+Problema
+Extensao Python nao encontra o interpretador.
+Solucao
+A extensao foi reconfigurada e o terminal reiniciado.
+Observacoes
+Registro de treinamento 021. Dados totalmente ficticios.
+Protocolo
+AT-022
+Data
+07/07/2026
+Solicitante
+Eduarda Martins Rocha
+E-mail
+eduarda.martins@aluno.exemplo.br
+Categoria
+Login
+Status
+Pendente
+CEP / cidade
+78005-000 - Cuiaba/MT
+Tempo
+87 min
+Problema
+Login informa credenciais invalidas mesmo apos redefinicao.
+Solucao
+Atendimento ainda nao finalizado.
+Observacoes
+Registro de treinamento 022. Dados totalmente ficticios.
+Protocolo
+AT-023
+Data
+12/07/2026
+Solicitante
+Lucas Ferreira Moraes
+E-mail
+lucas.ferreira@aluno.exemplo.br
+Categoria
+virtual env
+Status
+Em atendimento
+CEP / cidade
+78300-000 - Tangara da Serra/MT
+Tempo
+15 min
+Problema
+Interpretador global e usado no lugar do ambiente virtual.
+Solucao
+Atendimento ainda nao finalizado.
+Observacoes
+Registro de treinamento 023. Dados totalmente ficticios.
+Protocolo
+AT-024
+Data
+2026-07-17
+Solicitante
+Sara Cristina Lopes
+E-mail
+sara.cristina@aluno.exemplo.br
+Categoria
+internet
+Status
+Concluido
+CEP / cidade
+78200-000 - Caceres/MT
+Tempo
+22 min
+Problema
+Conexao cai durante o envio da atividade.
+Solucao
+Foi orientada nova tentativa e disponibilizado procedimento alternativo.
+Observacoes
+Registro de treinamento 024. Dados totalmente ficticios.
+
+FIC_DEV - Programador de Sistemas com IA | Dados ficticios
+Atendimentos digitais | pagina 7
+ Atendimentos digitais
+ Documento com texto selecionavel - 50 registros ficticios
+Protocolo
+AT-025
+Data
+22/07/2026
+Solicitante
+Ana Beatriz Costa
+E-mail
+ana.beatriz@aluno.exemplo.br
+Categoria
+ambiente virtual
+Status
+Pendente
+CEP / cidade
+78550-000 - Sinop/MT
+Tempo
+29 min
+Problema
+Ambiente virtual nao ativa no terminal.
+Solucao
+Atendimento ainda nao finalizado.
+Observacoes
+Registro de treinamento 025. Dados totalmente ficticios.
+Protocolo
+AT-026
+Data
+27/07/2026
+Solicitante
+Henrique Oliveira Luz
+E-mail
+henrique.oliveira@aluno.exemplo.br
+Categoria
+rede
+Status
+Em atendimento
+CEP / cidade
+78455-000 - Lucas do Rio Verde/MT
+Tempo
+36 min
+Problema
+Download das dependencias fica interrompido.
+Solucao
+Atendimento ainda nao finalizado.
+Observacoes
+Registro de treinamento 026. Dados totalmente ficticios.
+Protocolo
+AT-027
+Data
+2026-08-01
+Solicitante
+Otavia Cardoso Leal
+E-mail
+otavia.cardoso@aluno.exemplo.br
+Categoria
+biblioteca
+Status
+Concluido
+CEP / cidade
+78205-160 - Caceres/MT
+Tempo
+43 min
+Problema
+pip nao e reconhecido no terminal.
+Solucao
+O ambiente foi ativado e as dependencias foram instaladas pelo requirements.txt.
+Observacoes
+Registro de treinamento 027. Dados totalmente ficticios.
+Protocolo
+AT-028
+Data
+06/08/2026
+Solicitante
+Vinicius Mendes Sales
+E-mail
+vinicius.mendes@aluno.exemplo.br
+Categoria
+atividade
+Status
+Pendente
+CEP / cidade
+78110-000 - Varzea Grande/MT
+Tempo
+50 min
+Problema
+CSV abre com colunas desorganizadas.
+Solucao
+Atendimento ainda nao finalizado.
+Observacoes
+Registro de treinamento 028. Dados totalmente ficticios.
+
+FIC_DEV - Programador de Sistemas com IA | Dados ficticios
+Atendimentos digitais | pagina 8
+ Atendimentos digitais
+ Documento com texto selecionavel - 50 registros ficticios
+Protocolo
+AT-029
+Data
+11/08/2026
+Solicitante
+Daniel Souza Lima
+E-mail
+daniel.souza@aluno.exemplo.br
+Categoria
+INSTALACAO
+Status
+Em atendimento
+CEP / cidade
+78700-000 - Rondonopolis/MT
+Tempo
+57 min
+Problema
+Versao instalada nao e compativel com o sistema operacional.
+Solucao
+Atendimento ainda nao finalizado.
+Observacoes
+Registro de treinamento 029. Dados totalmente ficticios.
+Protocolo
+AT-030
+Data
+2026-08-16
+Solicitante
+Karina Almeida Reis
+E-mail
+karina.almeida@aluno.exemplo.br
+Categoria
+entrega
+Status
+Concluido
+CEP / cidade
+78005-000 - Cuiaba/MT
+Tempo
+64 min
+Problema
+Arquivo JSON apresenta erro de formato.
+Solucao
+O formato do arquivo e o caminho de salvamento foram corrigidos.
+Observacoes
+Registro de treinamento 030. Dados totalmente ficticios.
+Protocolo
+AT-031
+Data
+21/08/2026
+Solicitante
+Rafael Batista Neves
+E-mail
+rafael.batista@aluno.exemplo.br
+Categoria
+Instalação
+Status
+Pendente
+CEP / cidade
+78300-000 - Tangara da Serra/MT
+Tempo
+71 min
+Problema
+Usuario nao possui permissao para instalar o programa.
+Solucao
+Atendimento ainda nao finalizado.
+Observacoes
+Registro de treinamento 031. Dados totalmente ficticios.
+Protocolo
+AT-032
+Data
+05/07/2026
+Solicitante
+Zeca Moreira Cunha
+E-mail
+zeca.moreira@aluno.exemplo.br
+Categoria
+vscode
+Status
+Em atendimento
+CEP / cidade
+78200-000 - Caceres/MT
+Tempo
+78 min
+Problema
+Depurador para antes de iniciar o programa.
+Solucao
+Atendimento ainda nao finalizado.
+Observacoes
+Registro de treinamento 032. Dados totalmente ficticios.
+
+FIC_DEV - Programador de Sistemas com IA | Dados ficticios
+Atendimentos digitais | pagina 9
+ Atendimentos digitais
+ Documento com texto selecionavel - 50 registros ficticios
+Protocolo
+AT-033
+Data
+2026-07-10
+Solicitante
+Gabriela Pereira Melo
+E-mail
+gabriela.pereira@aluno.exemplo.br
+Categoria
+problema de senha
+Status
+Concluido
+CEP / cidade
+78550-000 - Sinop/MT
+Tempo
+85 min
+Problema
+Nao consegue recuperar a senha do ambiente virtual.
+Solucao
+Foi realizada redefinicao de senha e orientacao sobre acesso seguro.
+Observacoes
+Registro de treinamento 033. Dados totalmente ficticios.
+Protocolo
+AT-034
+Data
+15/07/2026
+Solicitante
+Nicolas Teixeira Paz
+E-mail
+nicolas.teixeira@aluno.exemplo.br
+Categoria
+VENV
+Status
+Pendente
+CEP / cidade
+78455-000 - Lucas do Rio Verde/MT
+Tempo
+13 min
+Problema
+Ambiente virtual nao ativa no terminal.
+Solucao
+Atendimento ainda nao finalizado.
+Observacoes
+Registro de treinamento 034. Dados totalmente ficticios.
+Protocolo
+AT-035
+Data
+20/07/2026
+Solicitante
+Ursula Vieira Prado
+E-mail
+ursula.vieira@aluno.exemplo.br
+Categoria
+acesso
+Status
+Em atendimento
+CEP / cidade
+78205-160 - Caceres/MT
+Tempo
+20 min
+Problema
+Conta bloqueada depois de varias tentativas de acesso.
+Solucao
+Atendimento ainda nao finalizado.
+Observacoes
+Registro de treinamento 035. Dados totalmente ficticios.
+Protocolo
+AT-036
+Data
+2026-07-25
+Solicitante
+Camila Rodrigues Silva
+E-mail
+camila.rodrigues@aluno.exemplo.br
+Categoria
+venv
+Status
+Concluido
+CEP / cidade
+78110-000 - Varzea Grande/MT
+Tempo
+27 min
+Problema
+venv nao aparece no VSCode.
+Solucao
+O interpretador da pasta .venv foi selecionado no VSCode.
+Observacoes
+Registro de treinamento 036. Dados totalmente ficticios.
+
+FIC_DEV - Programador de Sistemas com IA | Dados ficticios
+Atendimentos digitais | pagina 10
+ Atendimentos digitais
+ Documento com texto selecionavel - 50 registros ficticios
+Protocolo
+AT-037
+Data
+30/07/2026
+Solicitante
+Joao Pedro Barros
+E-mail
+joao.pedro@aluno.exemplo.br
+Categoria
+conexao
+Status
+Pendente
+CEP / cidade
+78700-000 - Rondonopolis/MT
+Tempo
+34 min
+Problema
+Ambiente virtual de aprendizagem nao abre.
+Solucao
+Atendimento ainda nao finalizado.
+Observacoes
+Registro de treinamento 037. Dados totalmente ficticios.
+Protocolo
+AT-038
+Data
+04/08/2026
+Solicitante
+Quezia Santos Freire
+E-mail
+quezia.santos@aluno.exemplo.br
+Categoria
+pip
+Status
+Em atendimento
+CEP / cidade
+78005-000 - Cuiaba/MT
+Tempo
+41 min
+Problema
+Conflito de versoes ao instalar uma biblioteca.
+Solucao
+Atendimento ainda nao finalizado.
+Observacoes
+Registro de treinamento 038. Dados totalmente ficticios.
+Protocolo
+AT-039
+Data
+2026-08-09
+Solicitante
+Yasmin Carvalho Brito
+E-mail
+yasmin.carvalho@aluno.exemplo.br
+Categoria
+JSON/CSV
+Status
+Concluido
+CEP / cidade
+78300-000 - Tangara da Serra/MT
+Tempo
+48 min
+Problema
+Arquivo JSON apresenta erro de formato.
+Solucao
+O formato do arquivo e o caminho de salvamento foram corrigidos.
+Observacoes
+Registro de treinamento 039. Dados totalmente ficticios.
+Protocolo
+AT-040
+Data
+14/08/2026
+Solicitante
+Felipe Nunes Dias
+E-mail
+felipe.nunes@aluno.exemplo.br
+Categoria
+python
+Status
+Pendente
+CEP / cidade
+78200-000 - Caceres/MT
+Tempo
+55 min
+Problema
+Erro ModuleNotFoundError ao executar a atividade.
+Solucao
+Atendimento ainda nao finalizado.
+Observacoes
+Registro de treinamento 040. Dados totalmente ficticios.
+
+FIC_DEV - Programador de Sistemas com IA | Dados ficticios
+Atendimentos digitais | pagina 11
+ Atendimentos digitais
+ Documento com texto selecionavel - 50 registros ficticios
+Protocolo
+AT-041
+Data
+19/08/2026
+Solicitante
+Mariana Ribeiro Cruz
+E-mail
+mariana.ribeiro@aluno.exemplo.br
+Categoria
+arquivo
+Status
+Em atendimento
+CEP / cidade
+78550-000 - Sinop/MT
+Tempo
+62 min
+Problema
+Atividade foi salva em diretorio diferente do esperado.
+Solucao
+Atendimento ainda nao finalizado.
+Observacoes
+Registro de treinamento 041. Dados totalmente ficticios.
+Protocolo
+AT-042
+Data
+2026-07-03
+Solicitante
+Thiago Araujo Campos
+E-mail
+thiago.araujo@aluno.exemplo.br
+Categoria
+instalar programa
+Status
+Concluido
+CEP / cidade
+78455-000 - Lucas do Rio Verde/MT
+Tempo
+69 min
+Problema
+Instalador encerra antes de concluir.
+Solucao
+Foi utilizada a versao compativel e a instalacao foi repetida com sucesso.
+Observacoes
+Registro de treinamento 042. Dados totalmente ficticios.
+Protocolo
+AT-043
+Data
+08/07/2026
+Solicitante
+Bruno Henrique Alves
+E-mail
+bruno.henrique@aluno.exemplo.br
+Categoria
+extensao vscode
+Status
+Pendente
+CEP / cidade
+78205-160 - Caceres/MT
+Tempo
+76 min
+Problema
+Terminal integrado nao executa o script.
+Solucao
+Atendimento ainda nao finalizado.
+Observacoes
+Registro de treinamento 043. Dados totalmente ficticios.
+Protocolo
+AT-044
+Data
+13/07/2026
+Solicitante
+Isabela Gomes Pinto
+E-mail
+isabela.gomes@aluno.exemplo.br
+Categoria
+ACESSO E SENHA
+Status
+Em atendimento
+CEP / cidade
+78110-000 - Varzea Grande/MT
+Tempo
+83 min
+Problema
+Conta bloqueada depois de varias tentativas de acesso.
+Solucao
+Atendimento ainda nao finalizado.
+Observacoes
+Registro de treinamento 044. Dados totalmente ficticios.
+
+FIC_DEV - Programador de Sistemas com IA | Dados ficticios
+Atendimentos digitais | pagina 12
+ Atendimentos digitais
+ Documento com texto selecionavel - 50 registros ficticios
+Protocolo
+AT-045
+Data
+2026-07-18
+Solicitante
+Paulo Victor Ramos
+E-mail
+paulo.victor@aluno.exemplo.br
+Categoria
+VS Code
+Status
+Concluido
+CEP / cidade
+78700-000 - Rondonopolis/MT
+Tempo
+90 min
+Problema
+Extensao Python nao encontra o interpretador.
+Solucao
+A extensao foi reconfigurada e o terminal reiniciado.
+Observacoes
+Registro de treinamento 045. Dados totalmente ficticios.
+Protocolo
+AT-046
+Data
+23/07/2026
+Solicitante
+Wesley Duarte Farias
+E-mail
+wesley.duarte@aluno.exemplo.br
+Categoria
+senha
+Status
+Pendente
+CEP / cidade
+78005-000 - Cuiaba/MT
+Tempo
+18 min
+Problema
+Login informa credenciais invalidas mesmo apos redefinicao.
+Solucao
+Atendimento ainda nao finalizado.
+Observacoes
+Registro de treinamento 046. Dados totalmente ficticios.
+Protocolo
+AT-047
+Data
+28/07/2026
+Solicitante
+Eduarda Martins Rocha
+E-mail
+eduarda.martins@aluno.exemplo.br
+Categoria
+virtual env
+Status
+Em atendimento
+CEP / cidade
+78300-000 - Tangara da Serra/MT
+Tempo
+25 min
+Problema
+Interpretador global e usado no lugar do ambiente virtual.
+Solucao
+Atendimento ainda nao finalizado.
+Observacoes
+Registro de treinamento 047. Dados totalmente ficticios.
+Protocolo
+AT-048
+Data
+2026-08-02
+Solicitante
+Lucas Ferreira Moraes
+E-mail
+lucas.ferreira@aluno.exemplo.br
+Categoria
+internet
+Status
+Concluido
+CEP / cidade
+78200-000 - Caceres/MT
+Tempo
+32 min
+Problema
+Conexao cai durante o envio da atividade.
+Solucao
+Foi orientada nova tentativa e disponibilizado procedimento alternativo.
+Observacoes
+Registro de treinamento 048. Dados totalmente ficticios.
+
+FIC_DEV - Programador de Sistemas com IA | Dados ficticios
+Atendimentos digitais | pagina 13
+ Atendimentos digitais
+ Documento com texto selecionavel - 50 registros ficticios
+Protocolo
+AT-049
+Data
+07/08/2026
+Solicitante
+Sara Cristina Lopes
+E-mail
+sara.cristina@aluno.exemplo.br
+Categoria
+pacotes python
+Status
+Pendente
+CEP / cidade
+78550-000 - Sinop/MT
+Tempo
+39 min
+Problema
+Erro ModuleNotFoundError ao executar a atividade.
+Solucao
+Atendimento ainda nao finalizado.
+Observacoes
+Registro de treinamento 049. Dados totalmente ficticios.
+Protocolo
+AT-050
+Data
+12/08/2026
+Solicitante
+Ana Beatriz Costa
+E-mail
+ana.beatriz@aluno.exemplo.br
+Categoria
+rede
+Status
+Em atendimento
+CEP / cidade
+78455-000 - Lucas do Rio Verde/MT
+Tempo
+46 min
+Problema
+Download das dependencias fica interrompido.
+Solucao
+Atendimento ainda nao finalizado.
+Observacoes
+Registro de treinamento 050. Dados totalmente ficticios.

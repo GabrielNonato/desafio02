@@ -1,0 +1,387 @@
+FE DEV -Program adorde S stem as com JA |Dados fcticos
+
+A tendim entos digitalizados
+
+D ocum ento escaneado - utilive OCR -25 registros ficticbs
+
+Protocol ATO51 Data 2026-08-17
+
+Solcitante H enrique O lveira Luz Email henrique olveia& aluno.exem pbbr
+Categoria PYTHON Status Concuto
+
+CEP /cidade 78205-160 - C aceresM T Tem po 53mh
+
+Problem a pb nao e reconhecido no tem inal
+
+Solucao O am biente foiativado e as dependencias foram instabhdas peb requirem ents.txt.
+
+O bservacoes R egistro de trenam ento 051 .D ados totalh ente fcticos.
+
+Protocob ATO52 Data 091 /07/2026
+
+Solicitante O tavia Cardoso Leal Email otavia cardoso€& alino.exem pb br
+Categoria atvidade Status Pendente
+
+CEP /cidade 78110-000 - Varzea G randeM T Tem po 606mh
+
+Problem a CSV abre com colinas desorganiadas.
+
+Solucao Atendin ento ainda nao fnalzado.
+
+O bservacoes Registro de trrenham ento 052 .D ados totalh ente fcticos.
+
+Protocol ATO53 Data 06/07/2026
+
+Solcitante Vincus M endes Saks Email vinicusm endesê albno.exem pb br
+Categoria sofw are Status Em atendin ento
+
+CEP /cidade 78700-000 -R ondonopolsM T Tem po 67mh
+
+Problem a Versao ihstabda nao e com patvelcom o sistem a operacibnal
+
+Solcao Atendin ento anda nao fnalzado.
+
+O bservacoes R egistro de trenam ento 053 .D ados totaln ente ficticos.
+
+Protocol ATOS5A4 Data 2026-07-11
+
+Solcitante DanklSouzaLlLina Email dan Blsouza& aluno.exem pb br
+Categoria editor Status Concuido
+
+CEP /cidade 78005-000 - CulabaM T Tem po T4mA
+
+Problm a E xtensao P ython nao encontra o iterppretador.
+
+Solucao A extensao foireconfigurada e o tem nhalrenhiciado.
+
+O bservacoes
+
+R egistro de trenam ento 054 .D ados totalh ente ficticos.
+
+Atendin entos dgitalzados |pagha |
+
+FE DEV -Program adorde S stem as com JA |Dados fcticos
+
+A tendim entos digitalizados
+
+D ocum ento escaneado -utilve OCR -25 registros ficticobs
+
+Protocol ATO55 Data 16/87/2026
+
+Soklcitante Karha AmedaRes Email karha.ahh eda& aluno.exem pbbr
+C ategoria ihstabcao Status Pendente
+
+CEP /cidade 78300-000 - Tangara da SeraM T Tem po 8lmh
+
+Problem a U suario nao possuipemm issao para instalro program a.
+
+Solcao Atendin ento anda nao fnalzado.
+
+O bservacoes R egistro de trenam ento 055 .D ados totalhh ente fcticibs.
+
+Protocob ATO56 Data 21 87/2026
+
+Solcitante R afaelBatista Neves Email rafaelbatista& abuno .exem pb br
+Categoria vscode Status Em atendin ento
+
+CEP /cidade 78200-000 - C aceresM T Tem po 88mh
+
+Problem a D epurador para antes de hicaro programa.
+
+Solcao Atendin ento anda nao fnalzado.
+
+O bservacoes Registro de trrenham ento 056 .D ados totalh ente fcticos.
+
+Protocol ATAO57 Data 2026-07-26
+
+Solcitante Zeca M oreira Cunha Email zeca m oreiraê alino .exem pb br
+Categoria Logh Status Concudo
+
+CEP /cidade 78550-000 - S nopM T Tem po 16mh
+
+Problem a N ão consegue recuperara senha do am bente virtual
+
+Solcao Foirealzada redefnicao de senha e orientacao sobre acesso seguro.
+
+O bservacoes R egistro de trenam ento 057 .D ados totaln ente ficticos.
+
+Protocol ATOS58 Data 31087/2026
+
+Solcitante G abreb Pereia Meb Email gabrieh pereimê auno.exem pb.br
+Categoria VENV Status Pendente
+
+CEP /cidade 78455-000 - Lucas do Rb VerdeM T Tem po 23MA
+
+Problm a Am biente vitualnao atva no tem nal
+
+Solucao Atendin ento ainda nao fnalzado.
+
+O bservacoes
+
+R egistro de trenam ento 058 .D ados totalh ente ficticos.
+
+Atendin entos dgialzados |pagnha 2
+
+FE DEV -Program adorde S stem as com JA |Dados fcticos
+
+A tendim entos digitalizados
+
+D ocum ento escaneado - utilive OCR -25 registros ficticobs
+
+Protocol ATO59 Data 85/88/2026
+
+Solcitante Niols Teikeia Paz Email nicobs.teixeira& abno.exem pb.br
+Categoria acesso rem oto Status Em atendin ento
+
+CEP /cidade 78205-160 - C aceresM T Tem po 30mh
+
+Problem a Downbad das dependencãas fica hterrom pido.
+
+Solcao Atendin ento anda nao fnalzado.
+
+O bservacoes Registro de trenam ento 059 .D ados totalh ente fcticobs.
+
+Protocob AT60 Data 2026-08-10
+
+Solcitante U rsub V Bia Prado Email ursub veiraG albno.exem pb br
+Categoria venv Status Concudo
+
+CEP /cidade 78110-000 - Varzea G randeM T Tem po 37mh
+
+Problem a venv nao aparece no VSCode.
+
+Solucao O ntepretadorda pasta venv foisebcinado no VSCode.
+
+O bservacoes Registro de trrenham ento 060 .D ados totalh ente fcticos.
+
+Protocolb AT61 Data 15/08/2026
+
+Soklcitante C am il R odrgues S iva Email cam il .rodrguesê alno.exem pb br
+Categoria conexao Status Pendente
+
+CEP /cidade 78700-000 - RondonopolsM T Tem po 44mn
+
+Problem a Am binte vitualde aprendizagem nao abre.
+
+Solcao Atendin ento ainda nao fnalzado.
+
+O bservacoes R egistro de trenam ento 061 .D ados totaln ente ficticos.
+
+Protocolb AT 062 Data 20/088/2026
+
+Solcitante Joao Pedro Bamos Email dDao pedroê aluno.exem pb.br
+Categoria bilbteca Status Em atendin ento
+
+CEP /cidade 78005-000 - CulabaM T Tem po 51mA
+
+Problm a C onflito de versoes ao nstabrum a bblbteca.
+
+Solucao Atendin ento anda nao fnalzado.
+
+O bservacoes
+
+R egistro de trenam ento 062 .D ados totalh ente ficticos.
+
+Atendin entos dgitalrados |pagha 3
+
+FE DEV -Program adorde S stem as com JA |Dados fcticos
+
+A tendim entos digitalizados
+
+D ocum ento escaneado - utilve OCR -25 registros ficticbs
+
+Protocol ATO63 Data 2026-07-04
+
+Solcitante Quezi Santos F reire Email quezi santosê abuno.exem pb br
+Categoria JISONCSV Status Concutdo
+
+CEP /cidade 78300-000 - Tangara da SeraM T Tem po 58mh
+
+Problem a Arquivo ISON apresenta erro de fom ato.
+
+Solucao O fom ato do arquivo e o cam ihho de savam ento foram corrgidos.
+
+O bservacoes R egistro de trenam ento 063 .D ados totalh ente fcticios.
+
+Protocob ATO64 Data 09/07/2026
+
+Solicitante Yasm n Carvaho Brrito Email yasm h carvahoê alno .exem pb br
+Categoria NSTALACAO Status Pendente
+
+CEP /cidade 78200-000 -C aceresM T Tem po 65mh
+
+Problem a U suari nao possuipem issao para hstahro program a.
+
+Solcao Atendin ento anda nao fnalzado.
+
+O bservacoes Registro de trrenham ento 064 .D ados totalh ente fcticos.
+
+Protocol AT465 Data 14/87/2026
+
+Solcitante Felpe Nunes D s Email felpe nunesê abuno.exem pb br
+Categoria arquivo Status Em atendin ento
+
+CEP /cidade 78550-000 - S nopM T Tem po 72mh
+
+Problem a Atviade foisava em diretorio diferente do esperado.
+
+Solcao Atendin ento anda nao fnalzado.
+
+O bservacoes R egistro de trenam ento 065 .D ados totaln ente ficticos.
+
+Protocol AT-O66 Data 2026-07-19
+
+Solcitante M ariana R beiro C ruz Email m ariana .rbe im€ alino.exem pb.br
+Categoria hstabção Status Concuido
+
+CEP /cidade 78455-000 - Lucas do Rb VerdeM T Tem po 79mh
+
+Problm a hstabdorencerra antes de conchuir.
+
+Solucao Foiutilzada a versao com pativele a hstalacao foirepetida com sucesso.
+
+O bservacoes
+
+R egistro de trenam ento 066 .D ados totalh ente ficticos.
+
+Atendin entos dgialzados |pagha 4
+
+FE DEV -Program adorde S stem as com JA |Dados fcticos
+
+A tendim entos digitalizados
+
+D ocum ento escaneado - utilve OCR -25 registros ficticobs
+
+Protocol ATO67 Data 24/07/2026
+
+Soklcitante Thiago Araup Campos Email thiago .araupê alino .exem pb.br
+Categoria extensao vscode Status Pendente
+
+CEP /cidade 78205-160 - C aceresM T Tem po 86mh
+
+Problem a Tem hnhalintegrado nao executa o scrpt.
+
+Solcao Atendin ento anda nao fnalzado.
+
+O bservacoes R egistro de trenam ento 067 .D ados totalh ente fcticos.
+
+Protocob ATO68 Data 29/87/2026
+
+Solcitante B runo H enrique A hes Email bruno henrique& aluno.exem pb.br
+Categoria probkm a de senha Status Em atendin ento
+
+CEP /cidade 78110-000 - Varzea G randeM T Tem po lá4mia
+
+Problem a C onta bbqueada depois de varis tentativas de acesso.
+
+Solcao Atendin ento anda nao fnalzado.
+
+O bservacoes Registro de trrenham ento 068 .D ados totalh ente fcticos.
+
+Protocolb ATO69 Data 2026-08-03
+
+Solcitante Eabeb GomesPhto Email isabekb gom esê aluno.exem pb br
+Categoria am biente vitual Status Concudo
+
+CEP /cidade 78700-000 -R ondonopolsM T Tem po 21mA
+
+Problem a venv nao aparece no VSCode.
+
+Solcao O interpretadorda pasta .venv foisebcinado no VSC ode.
+
+O bservacoes R egistro de trenam ento 069 .D ados totaln ente ficticos.
+
+Protocol ATO70 Data 08/08/2026
+
+Solcitante Paub VitorRamos Email paub victorê auno.exem pb.br
+Categoria acesso Status Pendente
+
+CEP /cidade 78005-000 - CulabaM T Tem po 28mh
+
+Problm a Login nfom a credenciais hvaldas m esm o apos redefinicao.
+
+Solucao Atendin ento ainda nao fnalzado.
+
+O bservacoes
+
+R egistro de trenam ento 070 .D ados totalh ente ficticos.
+
+Atendin entos dgialrados |pagha 5
+
+FE DEV -Program adorde S stem as com JA |Dados fcticos
+
+A tendim entos digitalizados
+
+D ocum ento escaneado -utilve OCR -25 registros ficticbs
+
+Protocol ATA71 Data 13/808/2026
+
+Solcitante W esky Duarte Farias Email wesky .duarteG& abuno.exem pbbr
+Categoria viualenv Status Em atendin ento
+
+CEP /cidade 78300-000 - Tangara da SeraM T Tem po 35mA
+
+Problem a htempretador gbbale usado no ugardo am bente vitual
+
+Solcao Atendin ento anda nao fnalzado.
+
+O bservacoes R egistro de trenam ento 071 .D ados totalh ente fcticos.
+
+Protocob ATO72 Data 2026-08-18
+
+Solcitante Eduarda M artins Rocha Email eduarda m arthsê alno.exem pb br
+Categoria htemet Status Concudo
+
+CEP /cidade 78200-000 - C aceresM T Tem po 42mh
+
+Problm a C onexao caidurante o envio da atividade.
+
+Solucao Foiorientada nova tentatva e disponbíilzado procedin ento atemativo.
+
+O bservacoes Registro de trrenham ento 072 .D ados totalh ente fcticos.
+
+Protocol ATO73 Data 092/07/2026
+
+Solcitante Lucas Ferreira M oraes Email Lcas ferreiaê auno.exem pb br
+Categoria pb Status Pendente
+
+CEP /cidade 78550-000 - S nopM T Tem po 49mh
+
+Problem a E rro M odu N otF oundE mrror ao executara atividade.
+
+Solcao Atendin ento anda nao fnalzado.
+
+O bservacoes R egistro de trenam ento 073 .D ados totaln ente ficticos.
+
+Protocol ATO7A Data 07 07/2026
+
+Solcitante Sara C ristha Lopes Email sara cristhna& aluno exem pb.br
+Categoria entrega Status Em atendin ento
+
+CEP /cidade 78455-000 - Lucas do Rb VerdeM T Tem po 56m n
+
+Problm a Atvidade foisakva em diretorio diferente do esperado.
+
+Solucao Atendin ento anda nao fnalzado.
+
+O bservacoes
+
+R egistro de trenam ento 074 .D ados totalh ente ficticos.
+
+Atendin entos dgialados |pagha 6
+
+FE DEV -Program adorde S stem aàs com JA |Dados fcticos
+
+A tendim entos digitalizados
+
+D ocum ento escaneado - utilve OCR -25 registtos fcticbs
+
+| Protocol ATO75 * Data 2026-07-12
+Solcitante Ana Beatriz C osta ] Email 1 ana beatrzê alino exem pb br
+Categoria python | Status | Concudo
+CEP /cidade 78205-160 - C aceresM T | Tem po 63mA
+Problem a pb nao e reconhecido no tem nal
+Solucao O am biente foiativado e as dependencias foram instabdas peb requirem ents.txt.
+O bservacoes Registro de rtenam ento 075.Dados totalh ente fcticbs.
+
+Atendin entos digitalkrados |paginha 7

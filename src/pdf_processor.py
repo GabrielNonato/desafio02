@@ -3,6 +3,15 @@ from __future__ import annotations
 from pathlib import Path
 from pypdf import PdfReader
 
+
+def save_extracted_text(pdf_path: str | Path, text: str) -> Path:
+    # Comentario V1 - Salva o texto extraído em um arquivo .txt na mesma pasta do PDF para facilitar auditoria e inspecção.
+    path=Path(pdf_path)
+    txt_path=path.with_suffix(".txt")
+    txt_path.write_text(text,encoding="utf-8")
+    return txt_path
+
+
 def extract_pdf_pages(path: str | Path, min_chars: int = 40) -> list[dict]:
     # Comentario V1 - Extrai texto de cada página do PDF e classifica como extracao_direta ou ocr_pendente conforme quantidade de caracteres
     # Comentario V1 - Cria leitor PDF a partir do caminho fornecido

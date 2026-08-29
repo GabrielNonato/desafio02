@@ -9,7 +9,7 @@ from sqlalchemy.exc import IntegrityError
 from .config import resolve
 from .database import create_session_factory, session_scope, find_by_protocol
 from .models import Documento, Atendimento, Chunk, ErroProcessamento
-from .pdf_processor import extract_pdf_pages
+from .pdf_processor import extract_pdf_pages, save_extracted_text
 from .ocr_processor import ocr_page
 from .validation import extract_fields, validate_record, clean_text
 from .text_processor import preprocess, split_chunks, metadata_json
@@ -59,6 +59,7 @@ def process_all(cfg: dict) -> pd.DataFrame:
             method="ocr" if all(p["metodo"]=="ocr_pendente" for p in page_data) else "extracao_direta"
             # Comentario V1 - Cria registro Documento no banco com metadados do PDF
             doc=Documento(nome_arquivo=pdf.name,hash_sha256=digest,total_paginas=len(page_data),metodo=method); session.add(doc); session.flush()
+            extracted_text=[]
             # Comentario V1 - Itera sobre cada página do PDF
             for page in page_data:
                 # Comentario V1 - Obtém texto da página (já extraído na fase anterior)
@@ -71,6 +72,8 @@ def process_all(cfg: dict) -> pd.DataFrame:
                     except Exception as exc:
                         # Comentario V1 - Se OCR falhar, registra erro no banco e continua com próxima página
                         session.add(ErroProcessamento(documento_id=doc.id,pagina=page["pagina"],etapa="ocr",tipo=type(exc).__name__,mensagem=str(exc))); logging.exception("OCR falhou: %s p.%s",pdf.name,page["pagina"]); continue
+                if text.strip():
+                    extracted_text.append(text.strip())
                 # Comentario V1 - Divide página em registros individuais (por protocolo)
                 for raw in split_records(text):
                     # Comentario V1 - Extrai campos do registro usando regex e valida contra regras
@@ -96,6 +99,8 @@ def process_all(cfg: dict) -> pd.DataFrame:
                         meta={"protocolo":protocol,"documento":pdf.name,"pagina":page["pagina"],"categoria":row["categoria"] or ""}
                         # Comentario V1 - Cria registro Chunk no banco com conteúdo e metadados em JSON
                         session.add(Chunk(atendimento_id=item.id,documento_id=doc.id,pagina=page["pagina"],indice=idx,conteudo=content,metadata_json=metadata_json(**meta)))
+            if extracted_text:
+                save_extracted_text(pdf, "\n\n".join(extracted_text))
     # Comentario V1 - Converte lista de registros em DataFrame pandas
     df=pd.DataFrame(rows)
     # Comentario V1 - Se há registros, exporta para CSV, gera indicadores em JSON e cria gráficos
